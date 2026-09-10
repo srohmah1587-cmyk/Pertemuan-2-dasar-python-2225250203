@@ -19,6 +19,7 @@ input dan output
 ### kalkulator_koordinat.py
 * Menghitung perubahan koordinat ($dx$ dan $dy$), jarak Euclidean, serta titik tengah (*midpoint*) dari dua titik koordinat pada bidang kartesius.
 ## Cara menjalankan program dari terminal
+###
 ### 1. Kalkulator Koordinat (`kalkulator_koordinat.py`) — Menggunakan Test Case 1
 ```text
 $ python kalkulator_koordinat.py
@@ -29,9 +30,3 @@ y titik B: 4
 Perubahan : dx = 3.00, dy = 4.00
 Jarak A ke B : 5.00
 Titik tengah : (1.50, 2.00)
-## Cara
-| Kasus | Titik A $(x_1, y_1)$ | Titik B $(x_2, y_2)$ | Jarak | Titik Tengah |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | (0, 0) | (3, 4) | 5.00 | (1.50, 2.00) |
-| 2 | (2, 1) | (4, 1) | 2.00 | (3.00, 1.00) |
-| 3 | (2.5, -1) | (2.5, 3) | 4.00 | (2.50, 1.00) |
