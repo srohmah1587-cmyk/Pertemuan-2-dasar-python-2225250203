@@ -1,4 +1,4 @@
-# Judul Utama (Pertemuan-02-dasar-python-2225250203)
+# Pertemuan-02-dasar-python-2225250203
 ## Identitas
 **Nama** : Siti Rohmah
 **NIM** : 2225250203
@@ -45,7 +45,8 @@ Masukkan nilai Tugas: 80
 Masukkan nilai UTS: 80
 Masukkan nilai UAS: 80
 Nilai Akhir: 80.00
-### 5. Kalkulator Koordinat (`kalkulator_koordinat.py`) — Menggunakan Test Case 1
+### 5. Kalkulator_Koordinat.py 
+Menggunakan Test Case 1
 python kalkulator_koordinat.py
 x titik A: 0
 y titik A: 0
@@ -54,3 +55,16 @@ y titik B: 4
 Perubahan : dx = 3.00, dy = 4.00
 Jarak A ke B : 5.00
 Titik tengah : (1.50, 2.00)
+## Tabel Hasil Uji Coba (Test Cases) Kalkulator Koordinat
+
+| No | Titik A $(x_1, y_1)$ | Titik B $(x_2, y_2)$ | Perubahan ($dx, dy$) | Jarak Euclidean | Titik Tengah ($(x_1+x_2)/2, (y_1+y_2)/2$) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | (0, 0) | (3, 4) | $dx = 3.00, dy = 4.00$ | $5.00$ | (1.50, 2.00) |
+| 2 | (2, 1) | (4, 1) | $dx = 2.00, dy = 0.00$ | $2.00$ | (3.00, 1.00) |
+| 3 | (2.5, -1) | (2.5, 3) | $dx = 0.00, dy = 4.00$ | $4.00$ | (2.50, 1.00) |
+## 5. Refleksi Singkat
+Praktikum Pertemuan 2 ini memberikan pemahaman mengenai pentingnya tipe data (`float`, `int`), penanganan input pengguna secara interaktif, serta pemanfaatan operator aritmatika dan *f-string* untuk menghasilkan format keluaran yang presisi. Kendala teknis seperti pengelolaan *version control* menggunakan Git dan sinkronisasi dengan GitHub juga berhasil diatasi, sehingga melatih kedisiplinan dalam mendokumentasikan kode program secara profesional.
+## 6. Sumber / Referensi
+*Modul Praktikum Algoritma dan Pemrograman: Dasar Pemrograman Python & Git/GitHub*.
+*Dokumentasi Resmi Python Software Foundation. (https://docs.python.org/)
+*Panduan Penggunaan Git dan GitHub Dokumentasi Resmi. (https://git-scm.com/doc)
