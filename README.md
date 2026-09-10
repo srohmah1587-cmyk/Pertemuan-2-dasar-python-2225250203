@@ -19,10 +19,34 @@ input dan output
 ### kalkulator_koordinat.py
 * Menghitung perubahan koordinat ($dx$ dan $dy$), jarak Euclidean, serta titik tengah (*midpoint*) dari dua titik koordinat pada bidang kartesius.
 ## Cara menjalankan program dari terminal
-###
-### 1. Kalkulator Koordinat (`kalkulator_koordinat.py`) — Menggunakan Test Case 1
-```text
-$ python kalkulator_koordinat.py
+### 1. python 01_biodata.py
+Masukkan Nama Anda: Siti Rohmah
+Masukkan NIM Anda: 2225250203
+Masukkan Kelas Anda: 3A
+Masukkan Tahun Lahir: 2007
+
+--- OUTPUT BIODATA ---
+Nama   : Siti Rohmah
+NIM    : 2225250203
+Kelas  : 3A
+Umur   : 19 Tahun
+### 2. python 02_persegi_panjang.py
+Masukkan panjang: 8
+Masukkan lebar: 5
+
+Luas Persegi Panjang     : 40.00
+Keliling Persegi Panjang : 26.00
+### 3. python 03_konversi_suhu.py
+Masukkan suhu dalam Celsius: 0°
+Suhu dalam Fahrenheit: 32.00 °F
+Suhu dalam Kelvin    : 273.15 K
+### 4. python 04_nilai_akhir.py
+Masukkan nilai Tugas: 80
+Masukkan nilai UTS: 80
+Masukkan nilai UAS: 80
+Nilai Akhir: 80.00
+### 5. Kalkulator Koordinat (`kalkulator_koordinat.py`) — Menggunakan Test Case 1
+python kalkulator_koordinat.py
 x titik A: 0
 y titik A: 0
 x titik B: 3
