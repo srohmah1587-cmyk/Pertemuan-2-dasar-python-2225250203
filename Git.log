@@ -1,0 +1,171 @@
+2026-09-09 23:06:17.030 [info] [main] Log level: Info
+2026-09-09 23:06:17.030 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-09-09 23:06:17.030 [info] [askpassManager] Creating content-addressed askpass scripts at c:\Users\ACER\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7
+2026-09-09 23:06:23.938 [info] [askpassManager] Successfully created content-addressed askpass scripts
+2026-09-09 23:06:24.265 [info] [main] Using git "2.55.0.windows.5" from "C:\Program Files\Git\cmd\git.exe"
+2026-09-09 23:06:24.265 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-09 23:06:28.031 [info] > git rev-parse --show-toplevel [3128ms]
+2026-09-09 23:06:32.589 [info] > git rev-parse --show-toplevel [4541ms]
+2026-09-09 23:06:32.825 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2026-09-09 23:06:58.196 [info] > git rev-parse --show-toplevel [1086ms]
+2026-09-09 23:07:02.250 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4038ms]
+2026-09-09 23:07:02.697 [info] [Model][openRepository] Opened repository (path): c:\Users\ACER\Desktop\latihan
+2026-09-09 23:07:02.697 [info] [Model][openRepository] Opened repository (real path): c:\Users\ACER\Desktop\latihan
+2026-09-09 23:07:02.697 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-09 23:07:03.346 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-09 23:07:04.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [1278ms]
+2026-09-09 23:07:04.624 [warning] [Git][getBranch] No such branch: master
+2026-09-09 23:07:04.696 [info] > git config --get commit.template [1834ms]
+2026-09-09 23:07:04.837 [info] > git check-ignore -v -z --stdin [1514ms]
+2026-09-09 23:07:04.894 [info] > git check-ignore -v -z --stdin [1448ms]
+2026-09-09 23:07:04.900 [info] > git config --get --local core.virtualfilesystem [2065ms]
+2026-09-09 23:07:04.900 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-09 23:07:05.542 [info] > git show --textconv :04_nilai_akhir.py [680ms]
+2026-09-09 23:07:05.639 [info] > git status -z -uall [720ms]
+2026-09-09 23:07:05.642 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [704ms]
+2026-09-09 23:07:05.691 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-09 23:07:05.932 [info] > git ls-files --stage -- 04_nilai_akhir.py [1054ms]
+2026-09-09 23:07:06.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [1216ms]
+2026-09-09 23:07:06.885 [warning] [Git][getBranch] No such branch: master
+2026-09-09 23:07:06.887 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-09-09 23:07:06.892 [info] > git hash-object -t tree /dev/null [1332ms]
+2026-09-09 23:07:06.893 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/ACER/Desktop/latihan/04_nilai_akhir.py.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CACER%5C%5CDesktop%5C%5Clatihan%5C%5C04_nilai_akhir.py%22%2C%22ref%22%3A%22%22%7D
+2026-09-09 23:07:06.895 [info] > git config --get commit.template [1213ms]
+2026-09-09 23:07:06.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [1265ms]
+2026-09-09 23:07:06.956 [warning] [Git][getBranch] No such branch: master
+2026-09-09 23:07:07.106 [info] > git hash-object -t tree /dev/null [1163ms]
+2026-09-09 23:07:07.106 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/ACER/Desktop/latihan/04_nilai_akhir.py.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CACER%5C%5CDesktop%5C%5Clatihan%5C%5C04_nilai_akhir.py%22%2C%22ref%22%3A%22%22%7D
+2026-09-09 23:07:07.908 [info] > git status -z -uall [944ms]
+2026-09-09 23:07:08.002 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1031ms]
+2026-09-09 23:07:57.729 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-09 23:07:57.921 [info] > git config --get commit.template [239ms]
+2026-09-09 23:07:57.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [229ms]
+2026-09-09 23:07:57.923 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:07:58.157 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [220ms]
+2026-09-09 23:07:58.175 [info] > git status -z -uall [245ms]
+2026-09-09 23:07:58.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [148ms]
+2026-09-09 23:07:58.354 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:07:58.356 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-09-09 23:08:21.436 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-09 23:08:21.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [196ms]
+2026-09-09 23:08:21.632 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:08:21.656 [info] > git config --get commit.template [230ms]
+2026-09-09 23:08:21.910 [info] > git status -z -uall [246ms]
+2026-09-09 23:08:21.911 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [226ms]
+2026-09-09 23:08:22.386 [info] > git check-ignore -v -z --stdin [134ms]
+2026-09-09 23:08:22.745 [info] > git show --textconv :04_nilai_akhir.py [338ms]
+2026-09-09 23:08:22.813 [info] > git show --textconv HEAD:04_nilai_akhir.py [393ms]
+2026-09-09 23:08:22.815 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/ACER/Desktop/latihan/04_nilai_akhir.py.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CACER%5C%5CDesktop%5C%5Clatihan%5C%5C04_nilai_akhir.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-09 23:08:22.874 [info] > git ls-files --stage -- 04_nilai_akhir.py [431ms]
+2026-09-09 23:08:22.892 [info] > git ls-tree -l HEAD -- 04_nilai_akhir.py [423ms]
+2026-09-09 23:08:22.892 [info] fatal: Not a valid object name HEAD
+2026-09-09 23:08:22.894 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/ACER/Desktop/latihan/04_nilai_akhir.py.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CACER%5C%5CDesktop%5C%5Clatihan%5C%5C04_nilai_akhir.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-09 23:08:23.016 [info] > git cat-file -s 9424a3faf83e35fd8f4ac5c881626f11094c3a55 [129ms]
+2026-09-09 23:08:57.930 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-09 23:08:58.360 [info] > git config --get commit.template [465ms]
+2026-09-09 23:08:58.419 [info] > git ls-files --stage -- 04_nilai_akhir.py [408ms]
+2026-09-09 23:08:58.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [498ms]
+2026-09-09 23:08:58.427 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:08:58.732 [info] > git cat-file -s 9424a3faf83e35fd8f4ac5c881626f11094c3a55 [307ms]
+2026-09-09 23:08:58.815 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [360ms]
+2026-09-09 23:08:58.837 [info] > git status -z -uall [404ms]
+2026-09-09 23:08:59.258 [info] > git show --textconv :04_nilai_akhir.py [504ms]
+2026-09-09 23:08:59.597 [info] > git check-ignore -v -z --stdin [176ms]
+2026-09-09 23:09:58.249 [info] > git config --get commit.template [263ms]
+2026-09-09 23:09:58.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [255ms]
+2026-09-09 23:09:58.259 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:09:58.400 [info] > git ls-files --stage -- 04_nilai_akhir.py [321ms]
+2026-09-09 23:09:58.618 [info] > git status -z -uall [353ms]
+2026-09-09 23:09:58.670 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [394ms]
+2026-09-09 23:09:59.043 [info] > git cat-file -s 9424a3faf83e35fd8f4ac5c881626f11094c3a55 [638ms]
+2026-09-09 23:09:59.244 [info] > git show --textconv :04_nilai_akhir.py [172ms]
+2026-09-09 23:09:59.327 [info] > git check-ignore -v -z --stdin [167ms]
+2026-09-09 23:15:01.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [384ms]
+2026-09-09 23:15:01.984 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:15:01.991 [info] > git ls-files --stage -- 04_nilai_akhir.py [314ms]
+2026-09-09 23:15:02.083 [info] > git config --get commit.template [492ms]
+2026-09-09 23:15:02.469 [info] > git status -z -uall [380ms]
+2026-09-09 23:15:02.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [399ms]
+2026-09-09 23:15:02.954 [info] > git cat-file -s 9424a3faf83e35fd8f4ac5c881626f11094c3a55 [955ms]
+2026-09-09 23:15:03.673 [info] > git check-ignore -v -z --stdin [703ms]
+2026-09-09 23:15:03.703 [info] > git show --textconv :04_nilai_akhir.py [621ms]
+2026-09-09 23:16:39.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [325ms]
+2026-09-09 23:16:39.569 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:16:39.603 [info] > git config --get commit.template [368ms]
+2026-09-09 23:16:39.626 [info] > git ls-files --stage -- 04_nilai_akhir.py [302ms]
+2026-09-09 23:16:40.096 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [480ms]
+2026-09-09 23:16:40.162 [info] > git status -z -uall [552ms]
+2026-09-09 23:16:40.206 [info] > git cat-file -s 9424a3faf83e35fd8f4ac5c881626f11094c3a55 [574ms]
+2026-09-09 23:16:40.414 [info] > git show --textconv :04_nilai_akhir.py [187ms]
+2026-09-09 23:16:40.687 [info] > git check-ignore -v -z --stdin [172ms]
+2026-09-09 23:18:16.982 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [251ms]
+2026-09-09 23:18:16.982 [info] fatal: bad revision 'refs/heads/main'
+2026-09-09 23:18:16.984 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-09-09 23:18:24.176 [info] > git -c user.useConfigOnly=true commit --quiet [731ms]
+2026-09-09 23:18:24.176 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-09 23:18:24.326 [info] > git config --get-all user.name [137ms]
+2026-09-09 23:18:24.567 [info] > git config --get commit.template [233ms]
+2026-09-09 23:18:24.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [240ms]
+2026-09-09 23:18:24.583 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:18:24.880 [info] > git status -z -uall [285ms]
+2026-09-09 23:18:24.882 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [276ms]
+2026-09-09 23:18:25.871 [info] > git check-ignore -v -z --stdin [510ms]
+2026-09-09 23:19:35.553 [info] > git -c user.useConfigOnly=true commit --quiet [507ms]
+2026-09-09 23:19:35.554 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-09 23:19:35.842 [info] > git config --get-all user.name [277ms]
+2026-09-09 23:19:36.147 [info] > git config --get commit.template [289ms]
+2026-09-09 23:19:36.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [252ms]
+2026-09-09 23:19:36.152 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:19:37.013 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [404ms]
+2026-09-09 23:19:37.018 [info] > git status -z -uall [838ms]
+2026-09-09 23:19:37.814 [info] > git check-ignore -v -z --stdin [143ms]
+2026-09-09 23:20:09.335 [info] > git -c user.useConfigOnly=true commit --quiet [286ms]
+2026-09-09 23:20:09.335 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-09 23:20:09.503 [info] > git config --get-all user.name [162ms]
+2026-09-09 23:20:09.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [271ms]
+2026-09-09 23:20:09.789 [warning] [Git][getBranch] No such branch: main
+2026-09-09 23:20:09.789 [info] > git config --get commit.template [280ms]
+2026-09-09 23:20:10.024 [info] > git status -z -uall [227ms]
+2026-09-09 23:20:10.051 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [240ms]
+2026-09-09 23:20:10.806 [info] > git check-ignore -v -z --stdin [162ms]
