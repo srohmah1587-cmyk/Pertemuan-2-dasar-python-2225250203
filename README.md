@@ -4,11 +4,11 @@
 **NIM** : 2225250203
 **Kelas** : 3A
 ## Tujuan Repositori
-repositori ini adalah tempat untuk mengumpulkan tugas pertemuan 02 Algoritma dan pemrograman 
+repositori ini adalah tempat untuk mengumpulkan tugas pertemuan 02 Algoritma dan pemrograman. 
 pada pertemuan 02 ini materi yang di praktikkan antara lain variabel,konstanta, tipe data,serta 
 input dan output
 ## Daftar dan fungsi berkas
-*01_biodata.py
+### biodata.py
 Menerima input data diri (nama, NIM, kelas, tahun lahir) dan menghitung perkiraan umur berdasarkan tahun saat ini.
 *02_persegi_panjang.py
 Menerima input panjang dan lebar sebagai `float` untuk menghitung luas dan keliling persegi panjang dengan format dua angka desimal.
