@@ -4,9 +4,8 @@
 **NIM** : 2225250203
 **Kelas** : 3A
 ## Tujuan Repositori
-repositori ini adalah tempat untuk mengumpulkan tugas pertemuan 02 Algoritma dan pemrograman. 
-pada pertemuan 02 ini materi yang di praktikkan antara lain variabel,konstanta, tipe data,serta 
-input dan output
+repositori ini di buat sebagai tempat untuk mengumpulkan tugas pertemuan 02 Algoritma dan pemrograman. 
+pada pertemuan 02 ini materi yang di praktikkan antara lain variabel,konstanta, tipe data,serta input dan output
 ## Daftar dan fungsi berkas
 ### 01_biodata.py
 * Menerima input data diri (nama, NIM, kelas, tahun lahir) dan menghitung perkiraan umur berdasarkan tahun saat ini.
@@ -65,6 +64,6 @@ Titik tengah : (1.50, 2.00)
 ## 5. Refleksi Singkat
 Praktikum Pertemuan 2 ini memberikan pemahaman mengenai pentingnya tipe data (`float`, `int`), penanganan input pengguna secara interaktif, serta pemanfaatan operator aritmatika dan *f-string* untuk menghasilkan format keluaran yang presisi. Kendala teknis seperti pengelolaan *version control* menggunakan Git dan sinkronisasi dengan GitHub juga berhasil diatasi, sehingga melatih kedisiplinan dalam mendokumentasikan kode program secara profesional.
 ## 6. Sumber / Referensi
-*Modul Praktikum Algoritma dan Pemrograman: Dasar Pemrograman Python & Git/GitHub*.
-*Dokumentasi Resmi Python Software Foundation. (https://docs.python.org/)
-*Panduan Penggunaan Git dan GitHub Dokumentasi Resmi. (https://git-scm.com/doc)
+* Modul Praktikum Algoritma dan Pemrograman: Dasar Pemrograman Python & Git/GitHub.
+* Dokumentasi Resmi Python Software Foundation. (https://docs.python.org/)
+* Panduan Penggunaan Git dan GitHub Dokumentasi Resmi. (https://git-scm.com/doc)
